@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output (rebuilt on deploy)
+dist/
+frontend/dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Data store (auto-seeded on startup)
+backend/data/db.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
